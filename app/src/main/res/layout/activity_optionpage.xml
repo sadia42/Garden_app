@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/opening"
+
+
+    tools:context=".optionpage">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+    <LinearLayout
+        android:id="@+id/histo"
+        android:layout_marginTop="10dp"
+        android:layout_width="270dp"
+        android:layout_height="300dp"
+        android:background="@color/white"
+        android:layout_gravity="center"
+        android:orientation="vertical">
+        <ImageView
+            android:id="@+id/rt"
+            android:layout_marginTop="20dp"
+            android:layout_gravity="center"
+            android:layout_width="250dp"
+            android:layout_height="200dp"
+            android:src="@drawable/lisi"
+            android:background="#c6ff81"
+            android:textStyle="bold"
+            android:textSize="20sp"/>
+        <TextView
+            android:id="@+id/prevfield"
+            android:layout_marginTop="5dp"
+            android:layout_gravity="center"
+            android:layout_width="250dp"
+            android:layout_height="30dp"
+            android:text="Field History"
+            android:background="#c6ff81"
+            android:paddingLeft="60dp"
+            android:textStyle="bold"
+            android:textSize="20sp"
+
+            /></LinearLayout>
+    <LinearLayout
+        android:id="@+id/design"
+        android:layout_marginTop="10dp"
+        android:layout_width="270dp"
+        android:layout_height="300dp"
+        android:background="@color/white"
+        android:layout_gravity="center"
+        android:orientation="vertical">
+        <ImageView
+            android:layout_marginTop="20dp"
+            android:layout_gravity="center"
+            android:layout_width="250dp"
+            android:layout_height="200dp"
+            android:src="@drawable/garden"
+            android:background="#c6ff81"
+            android:textStyle="bold"
+            android:textSize="20sp"/>
+        <TextView
+            android:id="@+id/des2"
+            android:layout_marginTop="5dp"
+            android:layout_gravity="center"
+            android:layout_width="250dp"
+            android:layout_height="30dp"
+            android:text="Create Field"
+            android:background="#c6ff81"
+            android:paddingLeft="60dp"
+            android:textStyle="bold"
+            android:textSize="20sp"
+
+            /></LinearLayout>
+    <LinearLayout
+        android:id="@+id/treprof"
+        android:layout_marginTop="10dp"
+        android:layout_width="270dp"
+        android:layout_height="300dp"
+        android:background="@color/white"
+        android:layout_gravity="center"
+        android:orientation="vertical">
+        <ImageView
+            android:layout_marginTop="20dp"
+            android:layout_gravity="center"
+            android:layout_width="250dp"
+            android:layout_height="200dp"
+            android:src="@drawable/treee"
+            android:background="#c6ff81"
+            android:textStyle="bold"
+            android:textSize="20sp"/>
+        <TextView
+            android:id="@+id/trp"
+            android:layout_marginTop="5dp"
+            android:layout_gravity="center"
+            android:layout_width="250dp"
+            android:layout_height="30dp"
+            android:text="TreeProfile"
+            android:background="#c6ff81"
+            android:paddingLeft="60dp"
+            android:textStyle="bold"
+            android:textSize="20sp"
+
+            /></LinearLayout>
+
+    </LinearLayout>
+
+
+
+</ScrollView>

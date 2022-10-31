@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/opening"
+    tools:context=".Signup">
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="60dp"
+        android:background="#d3ffce"
+        android:backgroundTint="#FFFACD"
+        android:text="Sign UP"
+        android:textAppearance="@style/TextAppearance.AppCompat.Body2"
+        android:textColor="#1aa698"
+        android:textSize="40sp"
+        android:layout_gravity="center"
+        android:textStyle="italic"></TextView>
+
+    <EditText
+
+        android:id="@+id/name"
+        android:layout_width="200dp"
+        android:layout_height="56dp"
+        android:layout_marginTop="70dp"
+        android:layout_gravity="center"
+        android:padding="10dp"
+        android:background="#d3ffce"
+        android:hint="Enter your name"
+        android:inputType="text"
+        android:textColor="#3F3F53"/>
+    <EditText
+        android:id="@+id/area"
+        android:layout_width="200dp"
+        android:layout_height="50dp"
+        android:layout_marginTop="15dp"
+        android:layout_gravity="center"
+        android:padding="10dp"
+        android:background="#d3ffce"
+        android:hint="division"
+        android:inputType="text"
+        >
+
+    </EditText>
+    <EditText
+
+        android:id="@+id/signupemail"
+        android:layout_width="200dp"
+        android:layout_height="56dp"
+        android:layout_marginTop="15dp"
+        android:layout_gravity="center"
+        android:padding="10dp"
+        android:background="#d3ffce"
+        android:hint="email"
+        android:inputType="textEmailAddress"
+        android:textColor="#3F3F53"/>
+
+
+    <EditText
+        android:id="@+id/signuppassword"
+        android:layout_width="200dp"
+        android:layout_height="50dp"
+        android:layout_marginTop="15dp"
+        android:layout_gravity="center"
+        android:padding="10dp"
+        android:background="#d3ffce"
+        android:hint="password"
+        android:inputType="textPassword"
+        >
+
+    </EditText>
+
+    <Button
+        android:id="@+id/signup"
+        android:layout_marginTop="35dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:shadowColor="#1aa698"
+        android:background="#1aa698"
+        android:fadingEdge="horizontal"
+        android:text="SIGN UP
+" />
+    <TextView
+        android:id="@+id/goback"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="20sp"
+        android:layout_gravity="center"
+        android:textStyle="italic"
+        android:text="Don't have an account? SignUP"
+        android:textColor="#B2B8C7">
+
+    </TextView>
+    <ProgressBar
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:visibility="gone"
+        android:id="@+id/progressbarid"/>
+
+</LinearLayout>

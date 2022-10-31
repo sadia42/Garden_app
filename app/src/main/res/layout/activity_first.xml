@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/opening"
+    tools:context=".First">
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+    <TextView
+        android:layout_width="100dp"
+        android:layout_height="40dp"
+        android:layout_marginTop="30dp"
+        android:textSize="20sp"
+        android:textColor="#c6ff81"
+        android:text="First plant:"
+        />
+    <EditText
+        android:layout_marginTop="10dp"
+        android:layout_width="300dp"
+        android:layout_height="60dp"
+        android:id="@+id/edit1"
+        android:background="#c6ff81"
+        android:hint="Mango"/>
+    <TextView
+        android:layout_width="150dp"
+        android:layout_height="40dp"
+        android:layout_marginTop="15dp"
+        android:textSize="20sp"
+        android:textColor="#c6ff81"
+        android:text="Second plant:"
+        />
+
+    <EditText
+        android:layout_marginTop="10dp"
+        android:layout_width="300dp"
+        android:layout_height="60dp"
+        android:id="@+id/edit2"
+        android:background="#c6ff81"
+        android:hint="Guava"/>
+    <TextView
+        android:layout_width="150dp"
+        android:layout_height="40dp"
+        android:layout_marginTop="15dp"
+        android:textSize="20sp"
+        android:textColor="#c6ff81"
+        android:text="Third plant :"
+        />
+    <EditText
+        android:layout_marginTop="10dp"
+        android:layout_width="300dp"
+        android:layout_height="60dp"
+        android:id="@+id/edit3"
+        android:background="#c6ff81"
+        android:hint="JackFruit"/>
+    <TextView
+        android:layout_width="150dp"
+        android:layout_height="40dp"
+        android:layout_marginTop="15dp"
+        android:textSize="20sp"
+        android:textColor="#c6ff81"
+        android:text="Width(m)"
+        />
+
+    <EditText
+        android:layout_marginTop="10dp"
+        android:layout_width="300dp"
+        android:layout_height="60dp"
+        android:background="#c6ff81"
+        android:id="@+id/col"
+        android:hint="Enter number"/>
+    <TextView
+        android:layout_width="150dp"
+        android:layout_height="40dp"
+        android:layout_marginTop="15dp"
+        android:textSize="20sp"
+        android:textColor="#c6ff81"
+        android:text="Length(m)"
+        />
+    <EditText
+        android:layout_marginTop="10dp"
+        android:layout_width="300dp"
+        android:layout_height="60dp"
+        android:background="#c6ff81"
+        android:id="@+id/row"
+        android:hint="Enter number"/>
+
+
+    <Button
+        android:layout_marginTop="20dp"
+        android:layout_width="200dp"
+        android:layout_gravity="center"
+        android:layout_height="60dp"
+        android:id="@+id/e_button"
+        android:text="Create Field"
+
+        />
+</LinearLayout>
+</ScrollView>

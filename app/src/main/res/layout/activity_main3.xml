@@ -1,0 +1,918 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity3">
+
+<LinearLayout
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="30dp"
+            android:orientation="horizontal">
+
+
+            <TextView
+                android:id="@+id/cow_dung"
+                android:text="CowDung"
+                android:layout_width="80dp"
+                android:layout_height="25dp"
+                android:textSize="12dp"
+                android:textStyle="bold"
+                android:textAllCaps="true"
+                />
+
+            <TextView
+                android:id="@+id/vc"
+                android:layout_width="40dp"
+                android:layout_height="25dp"
+                android:textSize="12dp"
+                android:textStyle="bold"
+                android:textAllCaps="true"
+                android:layout_marginLeft="5dp"/>
+
+
+            <TextView
+                android:id="@+id/tc"
+                android:layout_width="40dp"
+                android:layout_height="25dp"
+                android:textSize="12dp"
+                android:textStyle="bold"
+                android:textAllCaps="true"
+                android:layout_marginLeft="5dp" />
+
+
+            <TextView
+                android:id="@+id/uc"
+                android:layout_width="40dp"
+                android:layout_height="25dp"
+                android:textSize="12dp"
+                android:textStyle="bold"
+                android:textAllCaps="true"
+                android:layout_marginLeft="5dp"
+                android:text="KG" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="3dp"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/euria"
+                android:layout_width="80dp"
+                android:layout_height="25dp"
+                android:textSize="12dp"
+                android:textStyle="bold"
+                android:textAllCaps="true"
+                android:text="Euria " />
+
+            <TextView
+                android:id="@+id/ve"
+                android:layout_width="40dp"
+                android:layout_height="25dp"
+                android:textSize="12dp"
+                android:textStyle="bold"
+                android:textAllCaps="true"
+                android:layout_marginLeft="5dp" />
+
+            <TextView
+                android:id="@+id/te"
+                android:layout_width="40dp"
+                android:layout_height="25dp"
+                android:textSize="12dp"
+                android:textStyle="bold"
+                android:textAllCaps="true"
+                android:layout_marginLeft="5dp" />
+
+            <TextView
+                android:id="@+id/ue"
+                android:layout_width="40dp"
+                android:layout_height="25dp"
+                android:textSize="12dp"
+                android:textStyle="bold"
+                android:textAllCaps="true"
+                android:layout_marginLeft="5dp"
+                android:text="Gram" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="3dp"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/phos"
+                android:layout_width="80dp"
+                android:layout_height="25dp"
+                android:textSize="12dp"
+                android:textStyle="bold"
+                android:textAllCaps="true"
+                android:text="Phosphorus" />
+
+            <TextView
+                android:id="@+id/vph"
+                android:layout_width="40dp"
+                android:layout_height="25dp"
+                android:textSize="12dp"
+                android:textStyle="bold"
+                android:textAllCaps="true"
+                android:layout_marginLeft="5dp" />
+
+            <TextView
+                android:id="@+id/tph"
+                android:layout_width="40dp"
+                android:layout_height="25dp"
+                android:textSize="12dp"
+                android:textStyle="bold"
+                android:textAllCaps="true"
+                android:layout_marginLeft="5dp" />
+
+            <TextView
+                android:id="@+id/uph"
+                android:layout_width="40dp"
+                android:layout_height="25dp"
+                android:textSize="12dp"
+                android:textStyle="bold"
+                android:textAllCaps="true"
+                android:layout_marginLeft="5dp"
+                android:text="Gram" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="3dp"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/potash"
+                android:layout_width="80dp"
+                android:layout_height="25dp"
+                android:textSize="12dp"
+                android:textStyle="bold"
+                android:textAllCaps="true"
+                android:text="Potash" />
+
+            <TextView
+                android:id="@+id/vp"
+                android:layout_width="40dp"
+                android:layout_height="25dp"
+                android:textSize="12dp"
+                android:textStyle="bold"
+                android:textAllCaps="true"
+                android:layout_marginLeft="5dp" />
+
+            <TextView
+                android:id="@+id/tp"
+                android:layout_width="40dp"
+                android:layout_height="25dp"
+                android:textSize="12dp"
+                android:textStyle="bold"
+                android:textAllCaps="true"
+                android:layout_marginLeft="5dp" />
+
+            <TextView
+                android:id="@+id/up"
+                android:layout_width="40dp"
+                android:layout_height="25dp"
+                android:textSize="12dp"
+                android:textStyle="bold"
+                android:textAllCaps="true"
+                android:layout_marginLeft="5dp"
+                android:text="Gram" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="3dp"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/b"
+                android:layout_width="80dp"
+                android:layout_height="25dp"
+                android:textSize="12dp"
+                android:textStyle="bold"
+                android:textAllCaps="true"
+                android:text="Boron" />
+
+            <TextView
+                android:id="@+id/vb"
+                android:layout_width="40dp"
+                android:layout_height="25dp"
+                android:textSize="12dp"
+                android:textStyle="bold"
+                android:textAllCaps="true"
+                android:layout_marginLeft="5dp" />
+
+            <TextView
+                android:id="@+id/tb"
+                android:layout_width="40dp"
+                android:layout_height="25dp"
+                android:textSize="12dp"
+                android:textStyle="bold"
+                android:textAllCaps="true"
+                android:layout_marginLeft="5dp" />
+
+            <TextView
+                android:id="@+id/ub"
+                android:layout_width="40dp"
+                android:layout_height="25dp"
+                android:textSize="12dp"
+                android:textStyle="bold"
+                android:textAllCaps="true"
+                android:layout_marginLeft="5dp"
+                android:text="Gram" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="3dp"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/sulfer"
+                android:layout_width="80dp"
+                android:layout_height="25dp"
+                android:textSize="12dp"
+                android:textStyle="bold"
+                android:textAllCaps="true"
+                android:text="Sulfer" />
+
+            <TextView
+                android:id="@+id/vs"
+                android:layout_width="40dp"
+                android:layout_height="25dp"
+                android:textSize="12dp"
+                android:textStyle="bold"
+                android:textAllCaps="true"
+                android:layout_marginLeft="5dp" />
+
+            <TextView
+                android:id="@+id/ts"
+                android:layout_width="40dp"
+                android:layout_height="25dp"
+                android:textSize="12dp"
+                android:textStyle="bold"
+                android:textAllCaps="true"
+                android:layout_marginLeft="5dp" />
+
+            <TextView
+                android:id="@+id/us"
+                android:layout_width="40dp"
+                android:layout_height="25dp"
+                android:textSize="12dp"
+                android:textStyle="bold"
+                android:textAllCaps="true"
+                android:layout_marginLeft="5dp"
+                android:text="Gram" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="3dp"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/znc"
+                android:layout_width="80dp"
+                android:layout_height="25dp"
+                android:textSize="12dp"
+                android:textStyle="bold"
+                android:textAllCaps="true"
+                android:layout_marginLeft="5dp"
+                android:text="Zinc" />
+
+            <TextView
+                android:id="@+id/vz"
+                android:layout_width="40dp"
+                android:layout_height="25dp"
+                android:textSize="12dp"
+                android:textStyle="bold"
+                android:textAllCaps="true"
+                android:layout_marginLeft="5dp" />
+
+            <TextView
+                android:id="@+id/tz"
+                android:layout_width="40dp"
+                android:layout_height="25dp"
+                android:textSize="12dp"
+                android:textStyle="bold"
+                android:textAllCaps="true"
+                android:layout_marginLeft="5dp"/>
+
+            <TextView
+                android:id="@+id/uz"
+                android:layout_width="40dp"
+                android:layout_height="25dp"
+                android:textSize="12dp"
+                android:textStyle="bold"
+                android:textAllCaps="true"
+                android:layout_marginLeft="5dp"
+                android:text="Gram" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="30dp"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/scow_dung"
+                android:layout_width="80dp"
+                android:layout_height="25dp"
+                android:textSize="12dp"
+                android:textStyle="bold"
+                android:textAllCaps="true"
+                android:layout_marginLeft="5dp"
+                android:text="CowDung " />
+
+            <TextView
+                android:id="@+id/svc"
+                android:layout_width="40dp"
+                android:layout_height="25dp"
+                android:textSize="12dp"
+                android:textStyle="bold"
+                android:textAllCaps="true"
+                android:layout_marginLeft="5dp" />
+
+            <TextView
+                android:id="@+id/stc"
+                android:layout_width="40dp"
+                android:layout_height="25dp"
+                android:textSize="12dp"
+                android:textStyle="bold"
+                android:textAllCaps="true"
+                android:layout_marginLeft="5dp" />
+
+            <TextView
+                android:id="@+id/suc"
+                android:layout_width="40dp"
+                android:layout_height="25dp"
+                android:text="kg" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="3dp"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/seuria"
+                android:layout_width="80dp"
+                android:layout_height="25dp"
+                android:textSize="12dp"
+                android:textStyle="bold"
+                android:textAllCaps="true"
+                android:text="Euria " />
+
+            <TextView
+                android:id="@+id/sve"
+                android:layout_width="40dp"
+                android:layout_height="25dp"
+                android:textSize="12dp"
+                android:textStyle="bold"
+                android:textAllCaps="true"
+                android:layout_marginLeft="5dp" />
+
+            <TextView
+                android:id="@+id/ste"
+                android:layout_width="40dp"
+                android:layout_height="25dp"
+                android:textSize="12dp"
+                android:textStyle="bold"
+                android:textAllCaps="true"
+                android:layout_marginLeft="5dp" />
+
+            <TextView
+                android:id="@+id/sue"
+                android:layout_width="40dp"
+                android:layout_height="25dp"
+                android:textSize="12dp"
+                android:textStyle="bold"
+                android:layout_marginLeft="5dp"
+                android:textAllCaps="true"
+                android:text="Gram" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="3dp"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/sphos"
+                android:layout_width="80dp"
+                android:layout_height="25dp"
+                android:textSize="12dp"
+                android:textStyle="bold"
+                android:textAllCaps="true"
+                android:text="Phosphorus" />
+
+            <TextView
+                android:id="@+id/svph"
+                android:layout_width="40dp"
+                android:layout_height="25dp"
+                android:textSize="12dp"
+                android:textStyle="bold"
+                android:textAllCaps="true"
+                android:layout_marginLeft="5dp" />
+
+            <TextView
+                android:id="@+id/stph"
+                android:layout_width="40dp"
+                android:layout_height="25dp"
+                android:textSize="12dp"
+                android:textStyle="bold"
+                android:textAllCaps="true"
+                android:layout_marginLeft="5dp" />
+
+            <TextView
+                android:id="@+id/suph"
+                android:layout_width="40dp"
+                android:layout_height="25dp"
+                android:textSize="12dp"
+                android:textStyle="bold"
+                android:textAllCaps="true"
+                android:layout_marginLeft="5dp"
+                android:text="Gram" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="3dp"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/spotash"
+                android:layout_width="80dp"
+                android:layout_height="25dp"
+                android:textSize="12dp"
+                android:textStyle="bold"
+                android:textAllCaps="true"
+                android:text="Potash" />
+
+            <TextView
+                android:id="@+id/svp"
+                android:layout_width="40dp"
+                android:layout_height="25dp"
+                android:textSize="12dp"
+                android:textStyle="bold"
+                android:textAllCaps="true"
+                android:layout_marginLeft="5dp" />
+
+            <TextView
+                android:id="@+id/stp"
+                android:layout_width="40dp"
+                android:layout_height="25dp"
+                android:textSize="12dp"
+                android:textStyle="bold"
+                android:textAllCaps="true"
+                android:layout_marginLeft="5dp" />
+
+            <TextView
+                android:id="@+id/sup"
+                android:layout_width="40dp"
+                android:layout_height="25dp"
+                android:textSize="12dp"
+                android:textStyle="bold"
+                android:layout_marginLeft="5dp"
+                android:textAllCaps="true"
+                android:text="Gram" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="3dp"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/sb"
+                android:layout_width="80dp"
+                android:layout_height="25dp"
+                android:textSize="12dp"
+                android:textStyle="bold"
+                android:textAllCaps="true"
+                android:text="Boron" />
+
+            <TextView
+                android:id="@+id/svb"
+                android:layout_width="40dp"
+                android:layout_height="25dp"
+                android:textSize="12dp"
+                android:textStyle="bold"
+                android:textAllCaps="true"
+                android:layout_marginLeft="5dp" />
+
+            <TextView
+                android:id="@+id/stb"
+                android:layout_width="40dp"
+                android:layout_height="25dp"
+                android:textSize="12dp"
+                android:textStyle="bold"
+                android:layout_marginLeft="5dp"
+                android:textAllCaps="true"
+                />
+
+            <TextView
+                android:id="@+id/sub"
+                android:layout_width="40dp"
+                android:layout_height="25dp"
+                android:textSize="12dp"
+                android:textStyle="bold"
+                android:textAllCaps="true"
+                android:layout_marginLeft="5dp"
+                android:text="Gram" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="3dp"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/ssulfer"
+                android:layout_width="80dp"
+                android:layout_height="25dp"
+                android:textSize="12dp"
+                android:textStyle="bold"
+                android:textAllCaps="true"
+                android:text="Sulfer" />
+
+            <TextView
+                android:id="@+id/svs"
+                android:layout_width="40dp"
+                android:layout_height="25dp"
+                android:textSize="12dp"
+                android:textStyle="bold"
+                android:layout_marginLeft="5dp"
+                android:textAllCaps="true"
+                 />
+
+            <TextView
+                android:id="@+id/sts"
+                android:layout_width="40dp"
+                android:layout_height="25dp"
+                android:textSize="12dp"
+                android:textStyle="bold"
+                android:layout_marginLeft="5dp"
+                android:textAllCaps="true"
+                />
+
+            <TextView
+                android:id="@+id/sus"
+                android:layout_width="40dp"
+                android:layout_height="25dp"
+                android:textSize="12dp"
+                android:textStyle="bold"
+                android:textAllCaps="true"
+                android:layout_marginLeft="5dp"
+                android:text="Gram" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="3dp"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/sznc"
+                android:layout_width="80dp"
+                android:layout_height="25dp"
+                android:textSize="12dp"
+                android:textStyle="bold"
+                android:textAllCaps="true"
+                android:text="Zinc" />
+
+            <TextView
+                android:id="@+id/svz"
+                android:layout_width="40dp"
+                android:layout_height="25dp"
+                android:textStyle="bold"
+
+                android:layout_marginLeft="5dp" />
+
+            <TextView
+                android:id="@+id/stz"
+                android:layout_width="40dp"
+                android:layout_height="25dp"
+                android:textStyle="bold"
+                android:layout_marginLeft="5dp" />
+
+            <TextView
+                android:id="@+id/suz"
+                android:layout_width="40dp"
+                android:layout_height="25dp"
+                android:layout_marginLeft="5dp"
+                android:textStyle="bold"
+
+                android:text="Gram" />
+        </LinearLayout>
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="30dp"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/fcow_dung"
+                android:layout_width="80dp"
+                android:layout_height="25dp"
+                android:textSize="12dp"
+                android:textStyle="bold"
+                android:textAllCaps="true"
+                android:text="CowDung " />
+
+            <TextView
+                android:id="@+id/fvc"
+                android:layout_width="40dp"
+                android:layout_height="25dp"
+                android:textStyle="bold"
+
+                android:layout_marginLeft="5dp" />
+
+            <TextView
+                android:id="@+id/ftc"
+                android:layout_width="40dp"
+                android:layout_height="25dp"
+                android:textStyle="bold"
+
+                android:layout_marginLeft="5dp" />
+
+            <TextView
+                android:id="@+id/fuc"
+                android:layout_width="40dp"
+                android:layout_height="25dp"
+                android:layout_marginLeft="5dp"
+                android:textStyle="bold"
+
+                android:text="KG" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="3dp"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/feuria"
+                android:layout_width="80dp"
+                android:layout_height="25dp"
+                android:textSize="12dp"
+                android:textStyle="bold"
+                android:textAllCaps="true"
+                android:text="Euria " />
+
+            <TextView
+                android:id="@+id/fve"
+                android:layout_width="40dp"
+                android:layout_height="25dp"
+                android:textStyle="bold"
+
+                android:layout_marginLeft="5dp" />
+
+            <TextView
+                android:id="@+id/fte"
+                android:layout_width="40dp"
+                android:layout_height="25dp"
+                android:textStyle="bold"
+
+                android:layout_marginLeft="5dp" />
+
+            <TextView
+                android:id="@+id/fue"
+                android:layout_width="40dp"
+                android:layout_height="25dp"
+                android:layout_marginLeft="5dp"
+                android:textStyle="bold"
+
+                android:text="Gram" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="3dp"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/fphos"
+                android:layout_width="80dp"
+                android:layout_height="25dp"
+                android:textSize="12dp"
+                android:textStyle="bold"
+                android:textAllCaps="true"
+                android:text="Phosphorus" />
+
+            <TextView
+                android:id="@+id/fvph"
+                android:layout_width="40dp"
+                android:layout_height="25dp"
+                android:textStyle="bold"
+
+                android:layout_marginLeft="5dp" />
+
+            <TextView
+                android:id="@+id/ftph"
+                android:layout_width="40dp"
+                android:layout_height="25dp"
+                android:textStyle="bold"
+
+                android:layout_marginLeft="5dp" />
+
+            <TextView
+                android:id="@+id/fuph"
+                android:layout_width="40dp"
+                android:layout_height="25dp"
+                android:layout_marginLeft="5dp"
+                android:textStyle="bold"
+
+                android:text="Gram" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="3dp"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/fpotash"
+                android:layout_width="80dp"
+                android:layout_height="25dp"
+                android:textSize="12dp"
+                android:textStyle="bold"
+                android:textAllCaps="true"
+                android:text="Potash" />
+
+            <TextView
+                android:id="@+id/fvp"
+                android:layout_width="40dp"
+                android:layout_height="25dp"
+                android:textStyle="bold"
+
+                android:layout_marginLeft="5dp" />
+
+            <TextView
+                android:id="@+id/ftp"
+                android:layout_width="40dp"
+                android:layout_height="25dp"
+                android:textStyle="bold"
+
+                android:layout_marginLeft="5dp" />
+
+            <TextView
+                android:id="@+id/fup"
+                android:layout_width="40dp"
+                android:layout_height="25dp"
+                android:layout_marginLeft="5dp"
+                android:textStyle="bold"
+
+                android:text="Gram" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="3dp"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/fb"
+                android:layout_width="80dp"
+                android:layout_height="25dp"
+                android:textSize="12dp"
+                android:textStyle="bold"
+                android:textAllCaps="true"
+                android:text="Boron" />
+
+            <TextView
+                android:id="@+id/fvb"
+                android:layout_width="40dp"
+                android:layout_height="25dp"
+                android:textStyle="bold"
+
+                android:layout_marginLeft="5dp" />
+
+            <TextView
+                android:id="@+id/ftb"
+                android:layout_width="40dp"
+                android:layout_height="25dp"
+                android:textStyle="bold"
+
+                android:layout_marginLeft="5dp" />
+
+            <TextView
+                android:id="@+id/fub"
+                android:layout_width="40dp"
+                android:layout_height="25dp"
+                android:layout_marginLeft="5dp"
+                android:textStyle="bold"
+
+                android:text="Gram" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="3dp"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/fsulfer"
+                android:layout_width="80dp"
+                android:layout_height="25dp"
+                android:textSize="12dp"
+                android:textStyle="bold"
+                android:textAllCaps="true"
+                android:text="Sulfer" />
+
+            <TextView
+                android:id="@+id/fvs"
+                android:layout_width="40dp"
+                android:layout_height="25dp"
+                android:textStyle="bold"
+                android:layout_marginLeft="5dp" />
+
+            <TextView
+                android:id="@+id/fts"
+                android:layout_width="50dp"
+                android:layout_height="40dp"
+                android:textStyle="bold"
+                android:layout_marginLeft="5dp" />
+
+            <TextView
+                android:id="@+id/fus"
+                android:layout_width="40dp"
+                android:layout_height="25dp"
+                android:textStyle="bold"
+                android:layout_marginLeft="5dp"
+                android:text="Gram" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="3dp"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/fznc"
+                android:layout_width="80dp"
+                android:layout_height="25dp"
+                android:textSize="12dp"
+                android:textStyle="bold"
+                android:textAllCaps="true"
+                android:text="Zinc" />
+
+            <TextView
+                android:id="@+id/fvz"
+                android:layout_width="40dp"
+                android:layout_height="25dp"
+                android:textStyle="bold"
+                android:layout_marginLeft="5dp" />
+
+            <TextView
+                android:id="@+id/ftz"
+                android:layout_width="40dp"
+                android:layout_height="25dp"
+                android:textStyle="bold"
+                android:layout_marginLeft="5dp" />
+
+            <TextView
+                android:id="@+id/fuz"
+                android:layout_width="40dp"
+                android:layout_height="25dp"
+                android:textStyle="bold"
+                android:layout_marginLeft="5dp"
+                android:text="Gram" />
+        </LinearLayout>
+
+
+
+</LinearLayout>
+</LinearLayout>
